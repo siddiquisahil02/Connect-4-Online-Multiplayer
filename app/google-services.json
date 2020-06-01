@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "677135293644",
+    "firebase_url": "https://multiplayertest-1c02d.firebaseio.com",
+    "project_id": "multiplayertest-1c02d",
+    "storage_bucket": "multiplayertest-1c02d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:677135293644:android:eea611947408e11844f669",
+        "android_client_info": {
+          "package_name": "com.boiz.multiplayertest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "677135293644-9koic290kuhntmk9d3hume135ankqc8i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxuEqjuIgzdGYEAxw9qphgqGsjJ4-Mtkg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "677135293644-9koic290kuhntmk9d3hume135ankqc8i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

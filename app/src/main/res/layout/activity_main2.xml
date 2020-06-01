@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bluewall"
+    tools:context=".RoomMatch">
+
+    <TextView
+        android:id="@+id/tvSELECT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/listVIEW"
+        android:textSize="20sp"
+        android:text="SELECT ANY ONE ROOM"
+        android:textColor="#FFFFFF" />
+
+    <ListView
+        android:padding="10dp"
+        android:id="@+id/listVIEW"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnCREATE"
+        android:layout_alignParentTop="true">
+
+    </ListView>
+
+    <Button
+        android:id="@+id/btnCREATE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/tvstroke"
+        android:text="CREATE ROOM"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+</RelativeLayout>
